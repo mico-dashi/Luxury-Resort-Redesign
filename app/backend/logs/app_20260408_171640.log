@@ -1,0 +1,17 @@
+2026-04-08 17:16:40,495 - main - INFO - === Logging system initialized ===
+2026-04-08 17:16:40,539 - main - INFO - Log file: logs/app_20260408_171640.log
+2026-04-08 17:16:40,543 - main - INFO - Log level: INFO
+2026-04-08 17:16:40,551 - main - INFO - Timestamp: 20260408_171640
+2026-04-08 17:16:41,798 - main - INFO - Included router: routers.aihub.router
+2026-04-08 17:16:41,828 - main - INFO - Included router: routers.auth.router
+2026-04-08 17:16:41,900 - main - INFO - Included router: routers.bookings.router
+2026-04-08 17:16:41,915 - main - INFO - Included router: routers.health.router
+2026-04-08 17:16:42,002 - main - INFO - Included router: routers.rooms.router
+2026-04-08 17:16:42,037 - main - INFO - Included router: routers.settings.router
+2026-04-08 17:16:42,099 - main - INFO - Included router: routers.storage.router
+2026-04-08 17:16:42,115 - main - INFO - Included router: routers.user.router
+2026-04-08 17:16:42,120 - main - INFO - === Application startup initiated ===
+2026-04-08 17:16:42,121 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-04-08 17:16:42,122 - services.database - INFO - 🔧 Starting database initialization...
+2026-04-08 17:16:42,123 - core.database - INFO - Starting database initialization...
+2026-04-08 17:16:42,124 - services.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'database_url'

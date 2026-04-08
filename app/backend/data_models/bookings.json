@@ -1,0 +1,68 @@
+{
+    "title": "bookings",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "room_id": {
+            "type": "integer",
+            "description": "Room ID reference"
+        },
+        "room_name": {
+            "type": "string",
+            "description": "Room name for display"
+        },
+        "check_in": {
+            "type": "string",
+            "description": "Check-in date"
+        },
+        "check_out": {
+            "type": "string",
+            "description": "Check-out date"
+        },
+        "guests": {
+            "type": "integer",
+            "description": "Number of guests"
+        },
+        "total_price": {
+            "type": "integer",
+            "description": "Total booking price in EUR"
+        },
+        "status": {
+            "type": "string",
+            "description": "Booking status"
+        },
+        "guest_name": {
+            "type": "string",
+            "description": "Guest full name"
+        },
+        "guest_email": {
+            "type": "string",
+            "description": "Guest email"
+        },
+        "guest_phone": {
+            "type": "string",
+            "description": "Guest phone number"
+        },
+        "special_requests": {
+            "type": "string",
+            "description": "Special requests from guest"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Booking creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "room_id"
+    ]
+}

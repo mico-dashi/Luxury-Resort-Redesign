@@ -1,0 +1,64 @@
+{
+    "title": "rooms",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "name": {
+            "type": "string",
+            "description": "Room name"
+        },
+        "slug": {
+            "type": "string",
+            "description": "URL-friendly slug"
+        },
+        "description": {
+            "type": "string",
+            "description": "Room description"
+        },
+        "short_description": {
+            "type": "string",
+            "description": "Short description for cards"
+        },
+        "price_per_night": {
+            "type": "integer",
+            "description": "Price per night in EUR"
+        },
+        "max_guests": {
+            "type": "integer",
+            "description": "Maximum number of guests"
+        },
+        "size_sqm": {
+            "type": "integer",
+            "description": "Room size in square meters"
+        },
+        "image_url": {
+            "type": "string",
+            "description": "Main image URL"
+        },
+        "category": {
+            "type": "string",
+            "description": "Room category"
+        },
+        "amenities": {
+            "type": "string",
+            "description": "Comma-separated amenities list"
+        },
+        "rating": {
+            "type": "number",
+            "description": "Average rating out of 5"
+        },
+        "is_featured": {
+            "type": "boolean",
+            "description": "Whether room is featured on homepage"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "slug",
+        "price_per_night"
+    ]
+}
